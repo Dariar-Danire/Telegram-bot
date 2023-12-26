@@ -1,0 +1,7 @@
+{
+  "dependencies": [
+    "jwt-cpp",
+    "mongo-cxx-driver",
+    "openssl"
+  ]
+}
