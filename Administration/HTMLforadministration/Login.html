@@ -1,0 +1,29 @@
+{{define "Login"}}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-сайт для администраторов</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+
+<body>
+    <h1 class="text"><b><i>Вы не зарегистрированы</i></b></h1>
+    <div class="Menu">
+
+        <h2><b>Ваш временный код доступа: {{.Code}}</b></h2>
+        <p>Отправьте выше указанный временный код доступа нашему боту и нажмите "Попробовать зарегистрироваться" снизу</p>
+
+        <h3><b><a href={{.URL}}>Попробовать зарегистрироваться</a></b></h3>
+
+    </div>
+
+</body>
+
+</html>
+{{end}}
