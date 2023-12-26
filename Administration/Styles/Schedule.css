@@ -1,0 +1,45 @@
+span {
+    font-size: 29px;
+    background-color: blueviolet;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0%;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.text {
+    text-align: center;
+}
+
+.input {
+    text-align: center;
+    margin: 6%;
+}
+
+#file-control {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: linear-gradient(90deg, #00FF70 0%, #0000EE 100%);
+}
+
+#file-change-bar {
+    grid-column: 1/2;
+    padding: 1%;
+    border-style: solid;
+    border-width: 2px;
+    border-right-width: 0px;
+}
+
+#file-autoupdate-bar {
+    grid-column: 2/3;
+    padding: 1%;
+    border-style: solid;
+    border-width: 2px;
+}

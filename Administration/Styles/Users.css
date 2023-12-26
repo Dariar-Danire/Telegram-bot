@@ -1,0 +1,109 @@
+/* span {
+    font-size: 29px;
+    background-color: blueviolet;
+} */
+
+h1 {
+    font-size: 3em;
+    margin: 0%;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.text {
+    text-align: center;
+}
+
+.TextNoMargin {
+    text-align: center;
+    margin: 1px;
+}
+
+.input {
+    text-align: center;
+}
+
+#Roles{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#Roles-changer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#Role-User{
+    grid-column: 0/3;
+}
+
+#Role-Role{
+    grid-column: 2/3;
+}
+
+#Role-Do{
+    grid-column: 3/3;
+}
+
+#UsersList{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin: 10px;
+    height: 500px;
+    overflow-y: auto;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(170, 170, 200);
+}
+
+.UserExample{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.User{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.Name{
+    grid-column: 1/5;
+    border-style: solid;
+    border-width: 2px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+.Group{
+    grid-column: 5/7;
+    border-style: solid;
+    border-width: 2px;
+    border-right-width: 0px;
+}
+
+.GitHub_id{
+    grid-column: 7/8;
+    border-style: solid;
+    border-width: 2px;
+    border-right-width: 0px;
+}
+
+.Telegram_id{
+    grid-column: 8/9;
+    border-style: solid;
+    border-width: 2px;
+    border-right-width: 0px;
+}
+
+.UserRoles{
+    grid-column: 9/13;
+    border-style: solid;
+    border-width: 2px;
+    border-right-width: 0px;
+}
+
